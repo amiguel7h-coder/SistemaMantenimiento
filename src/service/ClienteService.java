@@ -17,6 +17,7 @@ public class ClienteService {
    public ClienteService(IClienteRepository repo) {
         this.clienteRepo = repo;
     }
+    
 
     // BUG intencional: validarDni está mal en util.Validaciones
     public void registrarCliente(String dni, String nombre, String tipo) {
